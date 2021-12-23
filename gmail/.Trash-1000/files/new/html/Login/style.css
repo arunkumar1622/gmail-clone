@@ -1,0 +1,68 @@
+label{
+    font-size: 15px;
+    color: black; 
+    margin-left:0%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+body {
+    background-image: url("../img/background.img1.jpg");
+    background-color: #cccccc;
+}
+  .padding-4rem {
+      padding: 4rem;
+  }
+.card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 70%;
+}
+button{
+    width: 50%;
+    margin:3% auto;
+    color:white;
+    font-size: 15px;
+    opacity: .7;
+    background: blue;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgb(255,255,255,0.3);
+}  
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+  }
+.text {
+margin: 10px;
+}
+.from{
+    row-gap: 20;
+    padding: 30px;
+}
+.margin_left_10{
+    margin-left: 10px;
+}
+input{
+    border-radius: 50px;
+}
+.line{
+    border-radius: 30px;
+    border:1px solid gray ;
+}
+.login {
+    background-image:url("../img/logni\ new.jpg");
+    background-color: #cccccc;
+    
+}

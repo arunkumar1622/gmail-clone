@@ -1,0 +1,73 @@
+
+html, body {
+    font-family: "Google Sans Text","Roboto",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3c4043;
+}
+.title-text {
+  font-size: 64px;
+}
+.text-para{
+    color: #5f6368;
+    font-size: 18px;
+    line-height: 28px;
+}
+.lisi{
+  padding: auto;
+  float: right;
+  margin: auto;
+}
+.header__container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+  content: space-between;
+}
+.navbar-card
+{
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.title-sub-text{
+  font-size: 42px;
+}
+.progress-item::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 22px !important;
+  height: 100%;
+  border-left: 5px solid lightgrey;
+}
+.progress-list {
+  position: relative;
+  counter-increment: list;
+}
+.progress-item{
+  position: relative;
+  list-style: none;
+}
+.content-text {
+  color: #1a73e8;
+  font: size 17px !important;
+}
+
+.tabset__tab__mobile-image__image {
+    display: block;
+}
+.spacer {
+  height: 100px;
+}
